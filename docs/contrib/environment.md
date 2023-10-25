@@ -82,13 +82,13 @@ OpenIM provides multiple deployment methods, each tailored to different use case
 
 1. **[Source Code Deployment Guide](https://doc.rentsoft.cn/guides/gettingStarted/imSourceCodeDeployment)**
 2. **[Docker Deployment Guide](https://doc.rentsoft.cn/guides/gettingStarted/dockerCompose)**
-3. **[Kubernetes Deployment Guide](https://github.com/openimsdk/open-im-server/tree/main/deployments)**
+3. **[Kubernetes Deployment Guide](https://github.com/JettyJiang/open-im-server/tree/main/deployments)**
 
 While the first two methods will be our main focus, it's worth noting that the third method, Kubernetes deployment, is also viable and can be rendered via the `environment.sh` script variables.
 
 ###  1.2. <a name='SourceCodeDeployment'></a>Source Code Deployment
 
-In the source code deployment method, the configuration generation process involves executing `make init`, which fundamentally runs the script `./scripts/init-config.sh`. This script utilizes variables defined in the [`environment.sh`](https://github.com/openimsdk/open-im-server/blob/main/scripts/install/environment.sh) script to render the [`openim.yaml`](https://github.com/openimsdk/open-im-server/blob/main/deployments/templates/openim.yaml) template file, subsequently generating the [`config.yaml`](https://github.com/openimsdk/open-im-server/blob/main/config/config.yaml) configuration file.
+In the source code deployment method, the configuration generation process involves executing `make init`, which fundamentally runs the script `./scripts/init-config.sh`. This script utilizes variables defined in the [`environment.sh`](https://github.com/JettyJiang/open-im-server/blob/main/scripts/install/environment.sh) script to render the [`openim.yaml`](https://github.com/JettyJiang/open-im-server/blob/main/deployments/templates/openim.yaml) template file, subsequently generating the [`config.yaml`](https://github.com/JettyJiang/open-im-server/blob/main/config/config.yaml) configuration file.
 
 ###  1.3. <a name='DockerComposeDeployment'></a>Docker Compose Deployment
 
@@ -204,7 +204,7 @@ export MINIO_RETENTION_DAYS="30"
 
 ####  1.4.5. <a name='MonitoringandLogging'></a>Monitoring and Logging
 
-##### [Audit Logging](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/environment.md#audit-logging)
+##### [Audit Logging](https://github.com/JettyJiang/open-im-server/blob/main/docs/contrib/environment.md#audit-logging)
 
 Enable audit logging to keep track of access and changes to your data.
 

@@ -11,10 +11,10 @@
 
 <p align=center>
 <a href="https://goreportcard.com/report/github.com/openimsdk/open-im-server"><img src="https://goreportcard.com/badge/github.com/openimsdk/open-im-server" alt="A+"></a>
-<a href="https://github.com/openimsdk/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22"><img src="https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?logo=%22github%22" alt="good first"></a>
-<a href="https://github.com/openimsdk/open-im-server"><img src="https://img.shields.io/github/stars/openimsdk/open-im-server.svg?style=flat&logo=github&colorB=deeppink&label=stars"></a>
+<a href="https://github.com/JettyJiang/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22"><img src="https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?logo=%22github%22" alt="good first"></a>
+<a href="https://github.com/JettyJiang/open-im-server"><img src="https://img.shields.io/github/stars/openimsdk/open-im-server.svg?style=flat&logo=github&colorB=deeppink&label=stars"></a>
 <a href="https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q"><img src="https://img.shields.io/badge/Slack-300%2B-blueviolet?logo=slack&amp;logoColor=white"></a>
-<a href="https://github.com/openimsdk/open-im-server/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-green"></a>
+<a href="https://github.com/JettyJiang/open-im-server/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-green"></a>
 <a href="https://golang.org/"><img src="https://img.shields.io/badge/Language-Go-blue.svg"></a>
 <a href="https://pkg.go.dev/github.com/openimsdk/open-im-server/v3"><img src="https://pkg.go.dev/badge/github.com/openimsdk/open-im-server/v3.svg" alt="Go Reference"></a>
 </p>
@@ -118,7 +118,7 @@ It is recommended to use Docker Compose for deployment, which can easily and qui
 
 > **Note**
 >
-> If you don't know OpenIM's versioning policy, 📚Read our release policy: https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/version.md
+> If you don't know OpenIM's versioning policy, 📚Read our release policy: https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/version.md
 
 
 </details> 
@@ -133,15 +133,15 @@ Ur need `Go 1.20` or higher version, and `make`.
 go version && make --version || echo "Error: One of the commands failed."
 ```
 
-Version Details: https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/version.md
+Version Details: https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/version.md
 
-You can get the version number from the command below or from [github releases](https://github.com/openimsdk/open-im-server/tags).
+You can get the version number from the command below or from [github releases](https://github.com/JettyJiang/open-im-server/tags).
 
 ```bash
 $ curl --silent "https://api.github.com/repos/openimsdk/open-im-server/releases" | jq -r '.[].tag_name'
 ```
 
-We have our own version management policy, if you are interested in our version management, I recommend reading [📚 OpenIM Version](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/version.md), We recommend using stable versions such as `v3.3.0` and `v3.2.0` whenever possible. `v3.1.1-alpha.3` as well as `v3.3.0-beta.0` and `v3.2.0-rc.0` are pre-release or beta versions and are not recommended.
+We have our own version management policy, if you are interested in our version management, I recommend reading [📚 OpenIM Version](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/version.md), We recommend using stable versions such as `v3.3.0` and `v3.2.0` whenever possible. `v3.1.1-alpha.3` as well as `v3.3.0-beta.0` and `v3.2.0-rc.0` are pre-release or beta versions and are not recommended.
 
 Set `OPENIM_VERSION` environment variables for the latest `OPENIM_VERSION` number, or replace the `OPENIM_VERSION` for you to install the OpenIM-Server `OPENIM_VERSION`:
 
@@ -154,7 +154,7 @@ Deploy basic components at the click of a command:
 
 ```bash
 # install openim dependency
-$ git clone https://github.com/openimsdk/open-im-server openim/openim-server && export openim=$(pwd)/openim/openim-server && cd $openim/openim-server && git checkout $OPENIM_VERSION
+$ git clone https://github.com/JettyJiang/open-im-server openim/openim-server && export openim=$(pwd)/openim/openim-server && cd $openim/openim-server && git checkout $OPENIM_VERSION
 $ make init && docker compose up -d && make start && make check
 ```
 
@@ -167,21 +167,21 @@ You can use the `make help-all` see OpenIM in action.
 
 <details>  <summary>Component Configuration Instructions</summary>
 
-Read: Configuration center document：https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/environment.md
+Read: Configuration center document：https://github.com/JettyJiang/open-im-server/blob/main/docs/contrib/environment.md
 
 </details>
 
 
 <details>  <summary>Deployed with kubernetes</summary>
 
-+ https://github.com/openimsdk/open-im-server/blob/main/deployments/README.md
++ https://github.com/JettyJiang/open-im-server/blob/main/deployments/README.md
 
 </details> 
 -->
 
 + **[Source Code Deployment Guide](https://doc.rentsoft.cn/guides/gettingStarted/imSourceCodeDeployment)**
 + **[Docker Deployment Guide](https://doc.rentsoft.cn/guides/gettingStarted/dockerCompose)**
-+ **[Kubernetes Deployment Guide](https://github.com/openimsdk/open-im-server/tree/main/deployments)**
++ **[Kubernetes Deployment Guide](https://github.com/JettyJiang/open-im-server/tree/main/deployments)**
 
 <!-- 
 ## :link: OpenIM and your application
@@ -200,19 +200,19 @@ Delve into the heart of Open-IM-Server's functionality with our architecture dia
 
 OpenIM Our goal is to build a top-level open source community. We have a set of standards, in the [Community repository](https://github.com/OpenIMSDK/community).
 
-If you'd like to contribute to this Open-IM-Server repository, please read our [contributor documentation](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md).
+If you'd like to contribute to this Open-IM-Server repository, please read our [contributor documentation](https://github.com/JettyJiang/open-im-server/blob/main/CONTRIBUTING.md).
 
-Before you start, please make sure your changes are in demand. The best for that is to create a [new discussion](https://github.com/openimsdk/open-im-server/discussions/new/choose) OR [Slack Communication](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q), or if you find an issue, [report it](https://github.com/openimsdk/open-im-server/issues/new/choose) first.
+Before you start, please make sure your changes are in demand. The best for that is to create a [new discussion](https://github.com/JettyJiang/open-im-server/discussions/new/choose) OR [Slack Communication](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q), or if you find an issue, [report it](https://github.com/JettyJiang/open-im-server/issues/new/choose) first.
 
-- [Code Standards](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/go_code.md)
-- [Docker Images Standards](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/images.md)
-- [Directory Standards](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/directory.md)
-- [Commit Standards](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/commit.md)
-- [Versioning Standards](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/version.md)
-- [Interface Standards](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/api.md)
-- [Log Standards](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/logging.md)
-- [Error Code Standards](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/error_code.md)
-- [OpenIM configuration and environment variable Settings](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/environment.md)
+- [Code Standards](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/go_code.md)
+- [Docker Images Standards](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/images.md)
+- [Directory Standards](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/directory.md)
+- [Commit Standards](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/commit.md)
+- [Versioning Standards](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/version.md)
+- [Interface Standards](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/api.md)
+- [Log Standards](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/logging.md)
+- [Error Code Standards](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/error_code.md)
+- [OpenIM configuration and environment variable Settings](https://github.com/JettyJiang/open-im-server/blob/main/docs/contrib/environment.md)
 
 
 ## :busts_in_silhouette: Community
@@ -228,20 +228,20 @@ We want anyone to get involved in our community and contributing code, we offer 
 
 Our conference is in the [OpenIM Slack](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q) 🎯, then you can search the Open-IM-Server pipeline to join
 
-We take notes of each [biweekly meeting](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting) in [GitHub discussions](https://github.com/openimsdk/open-im-server/discussions/categories/meeting), Our historical meeting notes, as well as replays of the meetings are available at [Google Docs :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing).
+We take notes of each [biweekly meeting](https://github.com/orgs/OpenIMSDK/discussions/categories/meeting) in [GitHub discussions](https://github.com/JettyJiang/open-im-server/discussions/categories/meeting), Our historical meeting notes, as well as replays of the meetings are available at [Google Docs :bookmark_tabs:](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing).
 
 ## :eyes: Who are using OpenIM
 
-Check out our [user case studies](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) page for a list of the project users. Don't hesitate to leave a [📝comment](https://github.com/openimsdk/open-im-server/issues/379) and share your use case.
+Check out our [user case studies](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) page for a list of the project users. Don't hesitate to leave a [📝comment](https://github.com/JettyJiang/open-im-server/issues/379) and share your use case.
 
 ## :page_facing_up: License
 
-OpenIM is licensed under the Apache 2.0 license. See [LICENSE](https://github.com/openimsdk/open-im-server/tree/main/LICENSE) for the full license text.
+OpenIM is licensed under the Apache 2.0 license. See [LICENSE](https://github.com/JettyJiang/open-im-server/tree/main/LICENSE) for the full license text.
 
-The OpenIM logo, including its variations and animated versions, displayed in this repository [OpenIM](https://github.com/openimsdk/open-im-server) under the [assets/logo](./assets/logo) and [assets/logo-gif](assets/logo-gif) directories, are protected by copyright laws.
+The OpenIM logo, including its variations and animated versions, displayed in this repository [OpenIM](https://github.com/JettyJiang/open-im-server) under the [assets/logo](./assets/logo) and [assets/logo-gif](assets/logo-gif) directories, are protected by copyright laws.
 
 ## 🔮 Thanks to our contributors!
 
-<a href="https://github.com/openimsdk/open-im-server/graphs/contributors">
+<a href="https://github.com/JettyJiang/open-im-server/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openimsdk/open-im-server" />
 </a>

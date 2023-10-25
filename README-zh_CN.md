@@ -11,10 +11,10 @@
 
 <p align=center>
 <a href="https://goreportcard.com/report/github.com/openimsdk/open-im-server"><img src="https://goreportcard.com/badge/github.com/openimsdk/open-im-server" alt="A+"></a>
-<a href="https://github.com/openimsdk/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22"><img src="https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?logo=%22github%22" alt="good first"></a>
-<a href="https://github.com/openimsdk/open-im-server"><img src="https://img.shields.io/github/stars/openimsdk/open-im-server.svg?style=flat&logo=github&colorB=deeppink&label=stars"></a>
+<a href="https://github.com/JettyJiang/open-im-server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22"><img src="https://img.shields.io/github/issues/openimsdk/open-im-server/good%20first%20issue?logo=%22github%22" alt="good first"></a>
+<a href="https://github.com/JettyJiang/open-im-server"><img src="https://img.shields.io/github/stars/openimsdk/open-im-server.svg?style=flat&logo=github&colorB=deeppink&label=stars"></a>
 <a href="https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q"><img src="https://img.shields.io/badge/Slack-300%2B-blueviolet?logo=slack&amp;logoColor=white"></a>
-<a href="https://github.com/openimsdk/open-im-server/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-green"></a>
+<a href="https://github.com/JettyJiang/open-im-server/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-green"></a>
 <a href="https://golang.org/"><img src="https://img.shields.io/badge/Language-Go-blue.svg"></a>
 </p>
 
@@ -76,64 +76,64 @@ $ make demo
 
 + **[源代码部署指南](https://doc.rentsoft.cn/guides/gettingStarted/imSourceCodeDeployment)**
 + **[Docker 部署指南](https://doc.rentsoft.cn/guides/gettingStarted/dockerCompose)**
-+ **[Kubernetes 部署指南](https://github.com/openimsdk/open-im-server/tree/main/deployments)**
++ **[Kubernetes 部署指南](https://github.com/JettyJiang/open-im-server/tree/main/deployments)**
 
 ## :hammer_and_wrench: 开始开发 OpenIM
 
 OpenIM 我们的目标是建立一个顶级的开源社区。我们有一套标准，在[社区仓库](https://github.com/OpenIMSDK/community)中。
 
-如果你想为这个 Open-IM-Server 仓库做贡献，请阅读我们的[贡献者文档](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md)。
+如果你想为这个 Open-IM-Server 仓库做贡献，请阅读我们的[贡献者文档](https://github.com/JettyJiang/open-im-server/blob/main/CONTRIBUTING.md)。
 
-在开始之前，请确保你的更改是有需求的。最好的方法是创建一个[新的讨论](https://github.com/openimsdk/open-im-server/discussions/new/choose) 或 [Slack 通信](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)，或者如果你发现一个问题，首先[报告它](https://github.com/openimsdk/open-im-server/issues/new/choose)。
+在开始之前，请确保你的更改是有需求的。最好的方法是创建一个[新的讨论](https://github.com/JettyJiang/open-im-server/discussions/new/choose) 或 [Slack 通信](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)，或者如果你发现一个问题，首先[报告它](https://github.com/JettyJiang/open-im-server/issues/new/choose)。
 
-+ [代码标准](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/go_code.md)
++ [代码标准](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/go_code.md)
 
-+ [Docker 镜像标准](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/images.md)
++ [Docker 镜像标准](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/images.md)
 
-+ [目录标准](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/directory.md)
++ [目录标准](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/directory.md)
 
-+ [提交标准](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/commit.md)
++ [提交标准](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/commit.md)
 
-+ [版本控制标准](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/version.md)
++ [版本控制标准](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/version.md)
 
-+ [接口标准](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/interface.md)
++ [接口标准](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/interface.md)
 
-+ [OpenIM配置和环境变量设置](https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/environment.md)
++ [OpenIM配置和环境变量设置](https://github.com/JettyJiang/open-im-server/blob/main/docs/contrib/environment.md)
 
 > **Note**
-> 针对中国的用户，阅读我们的 [Docker 镜像标准](https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/images.md) 以便使用国内 aliyun 的镜像地址。OpenIM 也有针对中国的 gitee 同步仓库，你可以在 [gitee.com](https://gitee.com/openimsdk) 上找到它。
+> 针对中国的用户，阅读我们的 [Docker 镜像标准](https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/images.md) 以便使用国内 aliyun 的镜像地址。OpenIM 也有针对中国的 gitee 同步仓库，你可以在 [gitee.com](https://gitee.com/openimsdk) 上找到它。
 
 ## :link: 链接
 
   + **[完整文档](https://doc.rentsoft.cn/)**
-  + **[更新日志](https://github.com/openimsdk/open-im-server/blob/main/CHANGELOG.md)**
-  + **[FAQ](https://github.com/openimsdk/open-im-server/blob/main/FAQ.md)**
-  + **[代码示例](https://github.com/openimsdk/open-im-server/blob/main/examples)**
+  + **[更新日志](https://github.com/JettyJiang/open-im-server/blob/main/CHANGELOG.md)**
+  + **[FAQ](https://github.com/JettyJiang/open-im-server/blob/main/FAQ.md)**
+  + **[代码示例](https://github.com/JettyJiang/open-im-server/blob/main/examples)**
 
 ## :handshake: 社区
 
-  + **[GitHub Discussions](https://github.com/openimsdk/open-im-server/discussions)**
+  + **[GitHub Discussions](https://github.com/JettyJiang/open-im-server/discussions)**
   + **[Slack 通信](https://join.slack.com/t/openimsdk/shared_invite/zt-22720d66b-o_FvKxMTGXtcnnnHiMqe9Q)**
-  + **[GitHub Issues](https://github.com/openimsdk/open-im-server/issues)**
+  + **[GitHub Issues](https://github.com/JettyJiang/open-im-server/issues)**
 
   您可以加入这些平台，讨论问题，提出建议，或分享您的成功故事！
 
 ## :writing_hand: 贡献
 
-  我们欢迎任何形式的贡献！请确保在提交 Pull Request 之前阅读我们的[贡献者文档](https://github.com/openimsdk/open-im-server/blob/main/CONTRIBUTING.md)。
+  我们欢迎任何形式的贡献！请确保在提交 Pull Request 之前阅读我们的[贡献者文档](https://github.com/JettyJiang/open-im-server/blob/main/CONTRIBUTING.md)。
 
-  + **[报告 Bug](https://github.com/openimsdk/open-im-server/issues/new?assignees=&labels=bug&template=bug_report.md&title=)**
-  + **[提出新特性](https://github.com/openimsdk/open-im-server/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=)**
-  + **[提交 Pull Request](https://github.com/openimsdk/open-im-server/pulls)**
+  + **[报告 Bug](https://github.com/JettyJiang/open-im-server/issues/new?assignees=&labels=bug&template=bug_report.md&title=)**
+  + **[提出新特性](https://github.com/JettyJiang/open-im-server/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=)**
+  + **[提交 Pull Request](https://github.com/JettyJiang/open-im-server/pulls)**
 
   感谢您的贡献，我们一起打造一个强大的即时通信解决方案！
 
 ## :closed_book: 许可证
 
-  OpenIMSDK 在 Apache License 2.0 许可下可用。查看[LICENSE 文件](https://github.com/openimsdk/open-im-server/blob/main/LICENSE)了解更多信息。
+  OpenIMSDK 在 Apache License 2.0 许可下可用。查看[LICENSE 文件](https://github.com/JettyJiang/open-im-server/blob/main/LICENSE)了解更多信息。
 
 ## 🔮 Thanks to our contributors!
 
-<a href="https://github.com/openimsdk/open-im-server/graphs/contributors">
+<a href="https://github.com/JettyJiang/open-im-server/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=openimsdk/open-im-server" />
 </a>

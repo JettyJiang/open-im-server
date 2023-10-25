@@ -26,15 +26,15 @@
 <a name="v3.3.0-rc.0"></a>
 ## v3.3.0-rc.0 - 2023-09-07
 ### Reverts
-- update etcd to v3.5.2 ([#206](https://github.com/openimsdk/open-im-server/issues/206))
+- update etcd to v3.5.2 ([#206](https://github.com/JettyJiang/open-im-server/issues/206))
 
 ### Pull Requests
 - Merge branch 'tuoyun'
 
 
-[Unreleased]: https://github.com/openimsdk/open-im-server/compare/v3.3.1...HEAD
-[v3.3.1]: https://github.com/openimsdk/open-im-server/compare/v3.3.1-beta.0...v3.3.1
-[v3.3.1-beta.0]: https://github.com/openimsdk/open-im-server/compare/v3.3.0-rc.1...v3.3.1-beta.0
-[v3.3.0-rc.1]: https://github.com/openimsdk/open-im-server/compare/v3.3.0-rc.12...v3.3.0-rc.1
-[v3.3.0-rc.12]: https://github.com/openimsdk/open-im-server/compare/v3.3.0...v3.3.0-rc.12
-[v3.3.0]: https://github.com/openimsdk/open-im-server/compare/v3.3.0-rc.0...v3.3.0
+[Unreleased]: https://github.com/JettyJiang/open-im-server/compare/v3.3.1...HEAD
+[v3.3.1]: https://github.com/JettyJiang/open-im-server/compare/v3.3.1-beta.0...v3.3.1
+[v3.3.1-beta.0]: https://github.com/JettyJiang/open-im-server/compare/v3.3.0-rc.1...v3.3.1-beta.0
+[v3.3.0-rc.1]: https://github.com/JettyJiang/open-im-server/compare/v3.3.0-rc.12...v3.3.0-rc.1
+[v3.3.0-rc.12]: https://github.com/JettyJiang/open-im-server/compare/v3.3.0...v3.3.0-rc.12
+[v3.3.0]: https://github.com/JettyJiang/open-im-server/compare/v3.3.0-rc.0...v3.3.0

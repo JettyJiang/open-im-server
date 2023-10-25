@@ -22,7 +22,7 @@
 
 DOCKER := docker
 
-# read: https://github.com/openimsdk/open-im-server/blob/main/docs/conversions/images.md
+# read: https://github.com/JettyJiang/open-im-server/blob/main/docs/conversions/images.md
 REGISTRY_PREFIX ?= ghcr.io/openimsdk
 
 BASE_IMAGE ?= ghcr.io/openim-sigs/openim-bash-image

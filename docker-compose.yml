@@ -1,4 +1,4 @@
-#fixme  Clone openIM Server project before using docker-compose,project address：https://github.com/OpenIMSDK/Open-IM-Server.git
+#fixme  Clone openIM Server project before using docker-compose,project address：https://github.com/JettyJiang/open-im-server.git
 version: '3'
 
 networks:

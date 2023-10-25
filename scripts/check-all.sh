@@ -17,7 +17,7 @@
 # 
 # Usage: `scripts/check-all.sh`.
 # Encapsulated as: `make check`.
-# READ: https://github.com/openimsdk/open-im-server/tree/main/scripts/install/environment.sh 
+# READ: https://github.com/JettyJiang/open-im-server/tree/main/scripts/install/environment.sh
 
 set -o errexit
 set -o nounset
@@ -72,7 +72,7 @@ fi
 
 if [[ $? -ne 0 ]]; then
   openim::log::error_exit "The service does not start properly, please check the port, query variable definition!"
-  echo "+++ https://github.com/openimsdk/open-im-server/tree/main/scripts/install/environment.sh +++"
+  echo "+++ https://github.com/JettyJiang/open-im-server/tree/main/scripts/install/environment.sh +++"
 else
   echo "++++ Check all dependent service ports successfully !"
 fi

@@ -12,7 +12,7 @@ all: tidy gen add-copyright verify lint cover restart
 # Build set
 
 ROOT_PACKAGE=github.com/openimsdk/open-im-server
-# TODO: This is version control for the future https://github.com/openimsdk/open-im-server/issues/574
+# TODO: This is version control for the future https://github.com/JettyJiang/open-im-server/issues/574
 VERSION_PACKAGE=github.com/openimsdk/open-im-server/v3/pkg/version
 
 # ==============================================================================

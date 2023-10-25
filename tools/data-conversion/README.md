@@ -3,7 +3,7 @@
 该指南提供了从 OpenIM V2 迁移至 V3 的详细步骤。请确保在开始迁移过程之前，熟悉所有步骤，并按照指南准确执行。
 
 + [OpenIM Chat](https://github.com/OpenIMSDK/chat)
-+ [OpenIM Server](https://github.com/OpenIMSDK/Open-IM-Server)
++ [OpenIM Server](https://github.com/JettyJiang/open-im-server)
 
 
 

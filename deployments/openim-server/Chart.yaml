@@ -49,7 +49,7 @@ keywords:
   - chat
 
 sources:
-  - "https://github.com/openimsdk/open-im-server"
+  - "https://github.com/JettyJiang/open-im-server"
   - "https://github.com/openimsdk/openim-sdk-core"
   - "https://github.com/openimsdk/openim-docker"
 

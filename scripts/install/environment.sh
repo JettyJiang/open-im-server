@@ -15,9 +15,9 @@
 
 # This is a file that initializes variables for the automation script that initializes the config file
 # You need to supplement the script according to the specification.
-# Read: https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/init_config.md
+# Read: https://github.com/JettyJiang/open-im-server/blob/main/docs/contrib/init_config.md
 # 格式化 bash 注释：https://tool.lu/shell/
-# 配置中心文档：https://github.com/openimsdk/open-im-server/blob/main/docs/contrib/environment.md
+# 配置中心文档：https://github.com/JettyJiang/open-im-server/blob/main/docs/contrib/environment.md
 
 OPENIM_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd -P)"
 
@@ -115,7 +115,7 @@ LAST_OCTET=$((LAST_OCTET + 1))
 GRAFANA_NETWORK_ADDRESS=$(generate_ip)
 
 ###################### openim 配置 ######################
-# read: https://github.com/openimsdk/open-im-server/blob/main/deployment/init/README.md
+# read: https://github.com/JettyJiang/open-im-server/blob/main/deployment/init/README.md
 def "OPENIM_DATA_DIR" "/data/openim"
 def "OPENIM_INSTALL_DIR" "/opt/openim"
 def "OPENIM_CONFIG_DIR" "/etc/openim"
